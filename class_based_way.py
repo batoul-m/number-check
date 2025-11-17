@@ -3,6 +3,10 @@ class CheckNumber:
         self.target = target
         self._guess = None
 
+    @property
+    def guess(self):
+        return self._guess
+
     @guess.setter
     def guess_setter(self, guess):
         self._guess = guess
